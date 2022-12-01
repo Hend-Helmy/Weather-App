@@ -1,0 +1,127 @@
+body{
+    color: #bfc1c8;
+    background-color:#1e202b ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+.logo h2{
+    font-size: 1.14em;
+    font-weight: 700;
+    color: white;
+}
+.logo p{
+color: #bfc1c8;
+font-size: 0.72em;
+margin-top: -8px;
+}
+
+nav ul .nav-link{
+    color: white;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+nav ul .active-link{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+nav ul li:hover .nav-link{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.landing{
+    background-image: url(../images/banner.png);
+    background-size: 100% 100%;
+}
+.search-btn #searchBtn{
+    background-color:#1e202b ;
+    padding: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    color: white;
+    outline: none;
+}
+.search-btn .find{
+    right: 20px;
+    top: 5px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background: #009ad8;
+    color: white;
+    border: none;
+}
+.forecos .card {
+    background: #1e202b;
+}
+.forecos .degree {
+    
+    color: white;
+}
+.forecos .degree .num{
+    font-size: 6.4em;
+    font-weight: 700;
+}
+.forecos .header{
+    background: #1e202b;
+    
+}
+.forecos .custom{
+    color: #009ad8;
+}
+footer{
+    background: #262936;
+}
+footer .subsc{
+    background-color:#1e202b ;
+    padding: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    color: white;
+    outline: none;
+}
+footer [type="submit"]{
+    right: 20px;
+    top: 5px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background: #009ad8;
+    color: white;
+    border: none;
+}
+footer p{
+    font-size: 14px;
+}
+footer .social-links i{
+    background-color: black;
+}
+footer .social-links i{
+    font-size: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
